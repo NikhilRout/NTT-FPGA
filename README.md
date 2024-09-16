@@ -4,11 +4,13 @@ Verilog Implementation of the Number Theoretic Transform (NTT) and its inverse o
 
 # Worked Out Example
 ## Number Theoretic Transform (NTT)
-A four-point NTT structure with **ψ** = 1925 in the ring **Z**<sub>7681</sub> is considered. A Cooley-Tukey butterfly unit based fast-NTT requires log<sub>2</sub>(n) stages. This implies our example shall need 2 stages\
-<img width="640" alt="image" src= "https://github.com/user-attachments/assets/6e29ce19-14b7-4d09-b381-5b2e24c81306">\
-Note: Inputs are in Normal order, Outputs are in Bit-reversed Order
+A four-point NTT structure with **ψ** = 1925 in the ring **Z**<sub>7681</sub> is considered. A Cooley-Tukey butterfly unit based fast-NTT requires log<sub>2</sub>(n) stages. This implies our example shall need 2 stages\. Inputs are in Normal order, Outputs are in Bit-reversed Order\
+\
+<img width="640" alt="image" src= "https://github.com/user-attachments/assets/6e29ce19-14b7-4d09-b381-5b2e24c81306">
+
 
 ## Inverse Number Theoretic Transform (INTT)
-Likewise a four-point INTT structure based on Gentleman-Sande Butterfly units shall require 2 stages\
-<img width="640" alt="image" src= "https://github.com/user-attachments/assets/659d9de8-f150-41b6-aec3-f22129ffeb58">\
-Note: Inputs are in Bit-reversed Order, Outputs are in Normal order
+Likewise a four-point INTT structure based on Gentleman-Sande Butterfly units shall require 2 stages. Inputs are in Bit-reversed Order, Outputs are in Normal order\
+\
+<img width="640" alt="image" src= "https://github.com/user-attachments/assets/659d9de8-f150-41b6-aec3-f22129ffeb58">
+
